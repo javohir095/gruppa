@@ -143,3 +143,19 @@
       flex: 2 0px;
     }
   }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+.card{
+    width: 310px;
+    height: 190px;
+    border-radius: 8px;
+
+}
