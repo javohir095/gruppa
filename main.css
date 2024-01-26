@@ -20,6 +20,9 @@
   .footer {
     display: flex;
     flex-flow: row wrap;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
     padding: 30px 30px 20px 30px;
     color: #2f2f2f;
     background-color: #fff;
@@ -152,10 +155,16 @@ section{
     display: flex;
     justify-content: center;
     gap: 0 10px;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 .card{
-    width: 310px;
-    height: 190px;
+    width: 300px;
+    height: 400px;
     border-radius: 8px;
-
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
