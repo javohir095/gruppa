@@ -7,10 +7,16 @@ section{
     display: flex;
     justify-content: center;
     gap: 0 10px;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 .card{
-    width: 310px;
-    height: 190px;
+    width: 300px;
+    height: 400px;
     border-radius: 8px;
-
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
