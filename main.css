@@ -20,6 +20,9 @@
   .footer {
     display: flex;
     flex-flow: row wrap;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
     padding: 30px 30px 20px 30px;
     color: #2f2f2f;
     background-color: #fff;
